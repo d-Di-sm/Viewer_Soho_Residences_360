@@ -260,7 +260,7 @@ const UI360 = ({
             transition={{ duration: 0.35, ease: "easeOut" }}
             className={`fixed z-20 pointer-events-auto overflow-hidden bg-transparent ${
               isMobile
-                ? "bottom-[calc(45vh-275px)] -translate-x-1/2 w-[100vw] max-w-[100vw] max-h-[45vh]"
+                ? "bottom-[calc(45vh-175px)] -translate-x-1/2 w-[100vw] max-w-[100vw] max-h-[45vh]"
                 : "bottom-4 left-4 max-w-[min(630px,100vw)] max-h-[min(450px,78.75vh)]"
             }`}
           >
